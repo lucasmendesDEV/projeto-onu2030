@@ -1,0 +1,512 @@
+.body1{
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+
+.main{
+    width: 100vw;
+    height: 100vh;
+    background:rgb(204, 214, 73);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.esquerda{
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 30vw;
+    height: 70vh;
+    display: flex; /* serve para alinhar lado a lado*/
+    justify-content: center; /* serve para alinhar no eixo y*/
+    align-items: center;/*serve para alinhar no eixo x*/
+    flex-direction: column; /* coisas uma em baixo da outra*/
+    box-shadow: 0px 10px 40px rgb(52, 51, 51);
+}
+
+.left1{
+    color: rgb(9, 9, 9);
+    font-size: 3vw;
+}
+
+.direita{
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 30vw;
+    height: 70vh;
+    display: flex; /* serve para alinhar lado a lado*/
+    justify-content: center; /* serve para alinhar no eixo y*/
+    align-items: center;/*serve para alinhar no eixo x*/
+    flex-direction: column;
+    box-shadow: 0px 10px 40px rgb(52, 51, 51);
+}
+
+.right2{
+    color: rgb(9, 9, 9);
+    font-size: 3vw;
+}
+
+.texto1{
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    background: white;
+}
+
+.texto2{
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    background: white;
+}
+.p{
+   
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 8px 0;
+ }
+
+.animation1{
+    width: 75%;
+}
+
+.animation2{
+    width: 50%;
+}
+
+button{
+    border: none;
+    border-radius: 10px;
+    width: 15vw;
+    height: 7%;
+}
+
+button:hover{
+    background: rgb(135, 239, 38);
+}
+    
+
+/* segunda etapa*/
+.body2{
+    margin: 0;
+}
+body *{
+    box-sizing: border-box;
+}
+.main_login{
+    
+    width: 100vw;
+    height: 100vh;
+    background:rgb(250, 192, 34);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left_login{
+    width: 35vw;
+    height: 100vh;
+    display: flex; /* serve para alinhar lado a lado*/
+    justify-content: center; /* serve para alinhar no eixo y*/
+    align-items: center;/*serve para alinhar no eixo x*/
+    flex-direction: column; /* coisas uma em baixo da outra*/
+    
+}
+
+.left_login > h1{ /* setinha chama o que você quiser mudar */
+    color: rgb(9, 9, 9);
+    font-size: 3vw;
+}
+
+.animation{
+    width: 35vw;
+  
+}
+
+.right_login{
+    width: 50vw;
+    height: 100vh;
+    display: flex; /* serve para alinhar lado a lado*/
+    justify-content: center; /* serve para alinhar no eixo y*/
+    align-items: center;/*serve para alinhar no eixo x*/
+}
+.card-login{
+    width: 60%;
+    display: flex; /* serve para alinhar lado a lado*/
+    justify-content: center; /* serve para alinhar no eixo y*/
+    align-items: center;/*serve para alinhar no eixo x*/
+    flex-direction: column;
+    padding:  30px 35px;
+    background: rgb(247, 233, 40);
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px rgb(52, 51, 51);
+}
+.btn-cadastro{
+    width: 100%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    text-transform: uppercase;
+    background-color: azure;
+    cursor: pointer;
+    box-shadow: 0px 8px 35px rgb(155, 243, 48) ;
+}
+
+
+.card-login > h1{
+    color: rgb(9, 9, 9) ;
+    font-weight: 800;
+    margin: 0;
+}
+
+.textfild{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 8px 0;
+}
+
+.textfild> input{
+    width: 100%;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    background: azure;
+    color: rgb(20, 20, 20);
+    font-size: 12pt;
+    box-shadow:0px 10px 35px rgb(140, 137, 137);
+    outline: none;
+    box-sizing: border-box;
+}
+
+.textfild> label{
+    margin-bottom: 5px;
+    
+}
+/*.............*/
+.body3 *{
+    box-sizing: border-box;
+}
+.main_login2{
+    
+    width: 100vw;
+    height: 100vh;
+    background:rgb(81, 234, 93);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left_login2{
+    width: 35vw;
+    height: 100vh;
+    display: flex; /* serve para alinhar lado a lado*/
+    justify-content: center; /* serve para alinhar no eixo y*/
+    align-items: center;/*serve para alinhar no eixo x*/
+    flex-direction: column; /* coisas uma em baixo da outra*/
+    
+}
+
+.left_login2 > h1{ /* setinha chama o que você quiser mudar */
+    color: rgb(9, 9, 9);
+    font-size: 3vw;
+}
+
+.animation3{
+    width: 35vw;
+  
+}
+
+.right_login2{
+    width: 50vw;
+    height: 100vh;
+    display: flex; /* serve para alinhar lado a lado*/
+    justify-content: center; /* serve para alinhar no eixo y*/
+    align-items: center;/*serve para alinhar no eixo x*/
+}
+.card-login2{
+    width: 60%;
+    display: flex; /* serve para alinhar lado a lado*/
+    justify-content: center; /* serve para alinhar no eixo y*/
+    align-items: center;/*serve para alinhar no eixo x*/
+    flex-direction: column;
+    padding:  30px 35px;
+    background: rgb(106, 248, 63);
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px rgb(52, 51, 51);
+}
+.btn-cadastro2{
+    width: 100%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    text-transform: uppercase;
+    background-color: azure;
+    cursor: pointer;
+    box-shadow: 0px 8px 35px rgb(155, 243, 48) ;
+}
+
+
+.card-login2 > h1{
+    color: rgb(9, 9, 9) ;
+    font-weight: 800;
+    margin: 0;
+}
+
+.textfild2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 8px 0;
+}
+
+.textfild2> input{
+    width: 100%;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    background: azure;
+    color: rgb(20, 20, 20);
+    font-size: 12pt;
+    box-shadow:0px 10px 35px rgb(140, 137, 137);
+    outline: none;
+    box-sizing: border-box;
+}
+
+.textfild2> label{
+    margin-bottom: 5px;
+    
+}
+
+/*...................*/
+
+.container-caixas{  
+    display: flex; /* elementos ficam lado a lado */
+    justify-content: space-between; 
+}
+   
+.box1{
+    background-color:rgb(65, 198, 55);
+    
+}
+.box2{
+    background-color: blue;
+}
+
+
+.box{
+    width: 80px;
+    height: 80px;
+    margin-bottom: 8px;
+
+}
+
+   
+
+body{
+    display: grid;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    grid-template-areas: "box1 box1"
+    "box2 box2";  
+    grid-template-rows: 25% px;
+    background-image: linear-gradient(green,yellow);
+}
+
+.box1{
+    justify-content: space-between;
+    grid-area: box1;
+    align-items: center;
+    display: flex;
+    padding: 10% 10%;
+    width: 65vw;
+    border: 2px solid black;
+    border-radius: 10px;
+    border: none;
+    margin-left: 18%;
+    box-sizing: border-box;
+   
+    
+}
+.box2{
+    justify-content: space-between;
+    grid-area: box2;
+    align-items: center;
+    display: flex;
+    padding: 10% 10%;
+    width: 65vw;
+    border: 2px solid black;
+    border-radius: 10px;
+    border: none;
+    margin-left: 18%;
+    box-sizing: border-box;
+    
+}
+
+.contanier{
+    border: solid black 2px;
+    border-radius: 15px;
+    width: 55%;
+    height: 80%;
+    box-sizing: border-box;
+    align-items: center;
+    margin: auto;
+    background-color: rgb(107, 245, 8);
+    
+}
+
+.fakefoto{
+    text-align: center; 
+}
+
+.fakedados > h1{
+    text-align: center;
+}
+
+.fakedados > p{
+    background-color: azure;
+    border-radius: 8px;
+}
+
+.email{
+    background-color: azure;
+    border-radius: 8px;
+}
+
+.botaofakedados{
+    width: 100%;
+    padding: 14px 0px;
+    border: none;
+    text-transform: uppercase;
+    background-color: azure;
+    cursor: pointer;
+    box-shadow: 0px 8px 35px rgb(188, 209, 34) ;
+    margin-top: 50px;
+    
+}
+
+.contanier2{
+    border: solid black 2px;
+    border-radius: 15px;
+    width: 55%;
+    height: 85%;
+    box-sizing: border-box;
+    align-items: center;
+    margin: auto;
+    background-color: rgb(107, 245, 8); 
+    margin-top: 60px;
+
+}
+
+
+
+
+
+.empresa1{
+    text-align: center;
+    height: 40vh;
+   
+    
+}
+.botaobox1{
+    margin-top: 15px;
+    box-shadow:0px 10px 35px rgb(140, 137, 137);
+}
+
+.empresa2{
+    text-align: center;
+    height: 40vh;
+}
+.botaobox2{
+    margin-top: 15px;
+    box-shadow:0px 10px 35px rgb(140, 137, 137);
+}
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:950px){
+    .card-login{
+        width: 85%;
+    }
+}
+ @media only screen and (max-width:600px){
+    .main_login{
+        flex-direction:column ;  
+    }
+    .left_login > h1{
+        display: none;
+    }
+    .left_login{
+        width: 100%;
+        height: auto;
+    }
+    .right_login{
+        width: 100%;
+        height: auto;
+    }
+    .left_login-animation{
+        width: 15vw;
+    }
+    .card-login{
+        width: 90%;
+    }
+ }
+    
+
+
+
+
+
+
+
+    
+
+
+    
+
+
+
+
